@@ -1,0 +1,55 @@
+import React from "react";
+import company from "../assets/images/company.jpeg";
+
+const Hero = () => {
+  const whatsappNumber = "+2349159722136"; // Replace with your WhatsApp number
+  const startWhatsAppChat = () => {
+    const whatsappLink = `https://wa.me/${whatsappNumber}`;
+    window.open(whatsappLink, "_blank");
+  };
+
+  // Replace javascript:void(0) path with your path
+  const navigation = [
+    { title: "Partners", path: "javascript:void(0)" },
+    { title: "Customers", path: "javascript:void(0)" },
+    { title: "Team", path: "javascript:void(0)" },
+  ];
+
+  return (
+    <section className="py-12">
+      <div className="max-w-screen-xl mx-auto text-gray-600 gap-x-12 items-center justify-between overflow-hidden md:flex md:px-8">
+        <div className="flex-none space-y-5 px-4 sm:max-w-lg md:px-0 lg:max-w-xl">
+          <h1 className="text-sm text-indigo-600 font-medium">
+            Over 300+ successful deals
+          </h1>
+          <h2 className="text-4xl text-gray-800 font-extrabold md:text-5xl">
+            Company Formation and easy Business Registeration in Nigeria
+          </h2>
+          <p>
+            Easily incorporate your company, get tax and banking set up, manage
+            legal and compliance filings, from anywhere in the world.
+          </p>
+          <button
+            data-number={whatsappNumber}
+            data-message="Hello, I have a question"
+            onClick={startWhatsAppChat}
+            class="overflow-hidden relative w-32 p-2 h-12 bg-[#132554] text-white border-none rounded-md text-xl font-bold cursor-pointer relative z-10 group"
+          >
+            Get Started
+            <span class="absolute w-36 h-32 -top-8 -left-2 bg-sky-200 rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-500 duration-1000 origin-right"></span>
+            <span class="absolute w-36 h-32 -top-8 -left-2 bg-sky-400 rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-700 duration-700 origin-right"></span>
+            <span class="absolute w-36 h-32 -top-8 -left-2 bg-sky-600 rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-1000 duration-500 origin-right"></span>
+            <span class="group-hover:opacity-100 group-hover:duration-1000 duration-100 opacity-0 absolute top-2.5 left-6 z-10">
+              Explore!
+            </span>
+          </button>
+        </div>
+        <div className="flex-none mt-14 md:mt-0 md:max-w-xl">
+          <img src={company} className=" md:rounded-tl-[108px]" alt="" />
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Hero;
