@@ -20,14 +20,19 @@ const Hero = () => {
       <div className="max-w-screen-xl mx-auto text-gray-600 gap-x-12 items-center justify-between overflow-hidden md:flex md:px-8">
         <div className="flex-none space-y-5 px-4 sm:max-w-lg md:px-0 lg:max-w-xl">
           <h1 className="text-sm text-indigo-600 font-medium">
-            Over 300+ successful deals
+            Over 3000+ successful Registrations, Trademarks and Licensing
           </h1>
           <h2 className="text-4xl text-gray-800 font-extrabold md:text-5xl">
-            Company Formation and easy Business Registeration in Nigeria
+            Company Formation and Seamless Business Registration in Nigeria
           </h2>
           <p>
-            Easily incorporate your company, get tax and banking set up, manage
-            legal and compliance filings, from anywhere in the world.
+            Incorporate and register your businesses, file your annual returns,
+            set up your Tax Identification Number, Tax Clearance Certificate and
+            Taxpro Max, set up corporate bank accounts, manage legal and
+            compliance fillings, trademarks, licensing and all necessary permits
+            necessary for the Regitration, Profitability, Viability and
+            Legal/Regulatory Compliance of Startups, MSME’s and
+            businesses in Nigeria.
           </p>
           <button
             data-number={whatsappNumber}

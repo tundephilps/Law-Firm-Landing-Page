@@ -33,6 +33,9 @@ export default () => {
     },
   ];
 
+  const instagramUrl =
+    "https:/www.instagram.com/smartstartup_ng?igsh=bWxudm93amp4dGhi&utm_source=qr";
+
   const whatsappNumber = "+2349159722136"; // Replace with your WhatsApp number
   const startWhatsAppChat = () => {
     const whatsappLink = `https://wa.me/${whatsappNumber}`;
@@ -87,10 +90,7 @@ export default () => {
             </li>
 
             <li className="w-10 h-10 border rounded-full flex items-center justify-center">
-              <Link
-                to="https://www.instagram.com/smartstartup_ng?igsh=bWxudm93amp4dGhi&utm_source=qr "
-                target="_parent"
-              >
+              <Link to={instagramUrl} target="_blank" rel="noopener noreferrer">
                 <IoLogoInstagram className="text-red-600 h-6 w-6" />
               </Link>
             </li>

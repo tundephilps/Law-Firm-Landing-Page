@@ -18,7 +18,7 @@ export default () => {
         </svg>
       ),
       title: "Easy Setup",
-      desc: "Incorporate your company with the CAC, and get a fully functional corporate bank account.",
+      desc: "Incorporate your company with CAC, File annual returns, set up corporate bank accounts and other post incorporation matters",
     },
     {
       icon: (
@@ -58,7 +58,7 @@ export default () => {
         </svg>
       ),
       title: "Certifications & Licensing",
-      desc: "  SCUML, NAFDAC, REDAN, DPR Permit, LGS, and other permits and licenses, from the comfort of your home.",
+      desc: "SCUML, NAFDAC, REDAN, COREN, ITF, BPP, TCC, Taxpro Max, TIN, VAT Certificate, NSITF, OGISP, and other permits and licenses, from the comfort of your home.",
     },
     {
       icon: (
